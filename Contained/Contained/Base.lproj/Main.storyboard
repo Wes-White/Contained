@@ -20,7 +20,7 @@
         <!--Settings-->
         <scene sceneID="crM-iw-Etl">
             <objects>
-                <viewController id="TZj-fY-V0M" sceneMemberID="viewController">
+                <viewController id="TZj-fY-V0M" customClass="SettingsViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EI1-tP-X2u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,7 +55,7 @@
         <!--Play-->
         <scene sceneID="Vjf-aX-Vb4">
             <objects>
-                <viewController id="tbq-HU-HZ7" sceneMemberID="viewController">
+                <viewController id="tbq-HU-HZ7" customClass="GameViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2cM-tL-k45">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
