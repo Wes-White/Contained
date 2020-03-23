@@ -106,10 +106,24 @@
                     <view key="view" contentMode="scaleToFill" id="2cM-tL-k45">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UxF-ka-IyY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="d43-ZL-fYh" firstAttribute="bottom" secondItem="UxF-ka-IyY" secondAttribute="bottom" id="5ea-4e-I1P"/>
+                            <constraint firstItem="d43-ZL-fYh" firstAttribute="trailing" secondItem="UxF-ka-IyY" secondAttribute="trailing" id="9Rl-fB-vd4"/>
+                            <constraint firstItem="UxF-ka-IyY" firstAttribute="leading" secondItem="d43-ZL-fYh" secondAttribute="leading" id="RmJ-04-3m4"/>
+                            <constraint firstItem="UxF-ka-IyY" firstAttribute="top" secondItem="d43-ZL-fYh" secondAttribute="top" id="ycg-Ji-yLM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="d43-ZL-fYh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="gamecontroller.fill" catalog="system" id="hQj-le-rKD"/>
+                    <connections>
+                        <outlet property="skiview" destination="UxF-ka-IyY" id="NFF-lK-Kgj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AAK-Dh-R8Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
