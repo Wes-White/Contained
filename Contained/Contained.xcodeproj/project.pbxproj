@@ -19,6 +19,7 @@
 		0E4A1D4824294ADD00E57999 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A1D4724294ADD00E57999 /* SettingsViewController.swift */; };
 		0E4A1D4B24295B7100E57999 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A1D4A24295B7100E57999 /* CustomScene.swift */; };
 		0E4A1D4D24295F0200E57999 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4A1D4C24295F0200E57999 /* Crab.xcassets */; };
+		0E4A1D4F24296EA000E57999 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4A1D4E24296EA000E57999 /* SKSpriteNode+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0E4A1D4724294ADD00E57999 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E4A1D4A24295B7100E57999 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 		0E4A1D4C24295F0200E57999 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Crab.xcassets; sourceTree = "<group>"; };
+		0E4A1D4E24296EA000E57999 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		0E4A1D2A242943F600E57999 /* Contained */ = {
 			isa = PBXGroup;
 			children = (
+				0E4A1D4E24296EA000E57999 /* SKSpriteNode+Utility.swift */,
 				0E4A1D2B242943F600E57999 /* AppDelegate.swift */,
 				0E4A1D2D242943F600E57999 /* SceneDelegate.swift */,
 				0E4A1D31242943F600E57999 /* Main.storyboard */,
@@ -165,6 +168,7 @@
 				0E4A1D4B24295B7100E57999 /* CustomScene.swift in Sources */,
 				0E4A1D4624294AD600E57999 /* InfoViewController.swift in Sources */,
 				0E4A1D4824294ADD00E57999 /* SettingsViewController.swift in Sources */,
+				0E4A1D4F24296EA000E57999 /* SKSpriteNode+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
